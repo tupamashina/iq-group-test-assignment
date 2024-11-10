@@ -4,9 +4,8 @@
 
 ```bash
 pnpm i
-
+pnpm eslint .
 pnpm build
-
 pnpm preview
 ```
 
@@ -19,9 +18,8 @@ pnpm preview
 
 ```bash
 npm i
-
+npm eslint .
 npm build
-
 npm preview
 ```
 

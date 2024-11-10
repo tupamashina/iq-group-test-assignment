@@ -1,0 +1,5 @@
+{
+  "$schema": "https://json.schemastore.org/lintstagedrc.schema",
+  "*.{js,cjs,mjs,jsx,ts,cts,mts,tsx}": "eslint --fix",
+  "!(*.{js,cjs,mjs,jsx,ts,cts,mts,tsx})": "prettier --write --ignore-unknown"
+}
